@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shamim Jewellers</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0e0e0e;
+      color: #f1f1f1;
+    }
+    header {
+      background: linear-gradient(to right, #ffcc00, #b88e07);
+      padding: 40px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: #000;
+    }
+    header p {
+      color: #000;
+      font-size: 1.2rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .gallery div {
+      background-color: #1a1a1a;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(255, 204, 0, 0.2);
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    h3 {
+      color: #ffcc00;
+    }
+    .contact, .social, .live-chat {
+      padding: 30px;
+      background-color: #111;
+      border-top: 2px solid #333;
+    }
+    form {
+      display: grid;
+      gap: 10px;
+      max-width: 500px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #ffcc00;
+      color: #000;
+      border: none;
+      padding: 10px;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #e6b800;
+    }
+    a {
+      color: #ffcc00;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+    footer {
+      background-color: #000;
+      text-align: center;
+      padding: 20px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shamim Jewellers</h1>
+    <p>Gopalgonj Swrnopatti | Call: 01736698974</p>
+  </header>
+
+  <section class="gallery">
+    <div>
+      <img src="https://via.placeholder.com/300x200?text=Gold+Jewelry+1" alt="Jewelry 1" />
+      <h3>গহনা 1</h3>
+      <p>দাম: আলোচনা সাপেক্ষে</p>
+    </div>
+    <div>
+      <img src="https://via.placeholder.com/300x200?text=Gold+Jewelry+2" alt="Jewelry 2" />
+      <h3>গহনা 2</h3>
+      <p>দাম: আলোচনা সাপেক্ষে</p>
+    </div>
+    <div>
+      <img src="https://via.placeholder.com/300x200?text=Gold+Jewelry+3" alt="Jewelry 3" />
+      <h3>গহনা 3</h3>
+      <p>দাম: আলোচনা সাপেক্ষে</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>যোগাযোগ করুন</h2>
+    <form>
+      <input type="text" placeholder="আপনার নাম লিখুন" required />
+      <input type="tel" placeholder="মোবাইল নাম্বার লিখুন" required />
+      <textarea placeholder="মেসেজ লিখুন..." required></textarea>
+      <button type="submit">পাঠান</button>
+    </form>
+    <h3>ঠিকানা:</h3>
+    <p>Gopalgonj Swrnopatti</p>
+    <p>Call: 01736698974</p>
+    <p>Email: shamimjewellers@email.com</p>
+  </section>
+
+  <section class="social">
+    <h2>আমাদের সাথে যুক্ত থাকুন:</h2>
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">LinkedIn</a>
+  </section>
+
+  <section class="live-chat">
+    <h3>লাইভ চ্যাট</h3>
+    <p>যেকোনো প্রশ্ন থাকলে WhatsApp এ মেসেজ করুন:</p>
+    <button onclick="window.location.href='https://wa.me/8801736698974'">WhatsApp চ্যাট করুন</button>
+  </section>
+
+  <footer>
+    &copy; 2025 Shamim Jewellers. সর্বস্বত্ব সংরক্ষিত।
+  </footer>
+</body>
+</html>
